@@ -82,10 +82,14 @@ a plugin outside that allowlist breaks the native build.
   adding build tooling or frameworks.
 - Only create git commits when the user explicitly asks.
 
-## OLD_SITE
+## Relationship to the old site
 
-`OLD_SITE` symlinks to `../ukslim.github.io`, the author's personal Jekyll blog — the source
-the three pages here were copied from. It is **temporary and will be deleted**; it is
-gitignored. Treat it as read-only reference and never edit through it. Its `_config.yml` still
-carries a stale `url: https://ukslim.github.io`; the live canonical domain is
-`john.hartnup.uk`.
+The manifesto material was copied here from `ukslim/ukslim.github.io`, the author's personal
+blog (live at `john.hartnup.uk`). That migration is finished and the `OLD_SITE` symlink that
+pointed at it is gone. What remains true over there:
+
+- `/kladde-manifesto/` and `/kladde-manifesto/workings/` are redirect stubs pointing at
+  `https://kladde26.org/` and `/workings/`. Changing those URLs here breaks them.
+- The announcement post at `/2026/09/17/kladde-manifesto.html` stays on the blog — it is
+  cloned to `/introduction/` here, not moved, so the two copies exist in parallel.
+- The fiction section and its per-story "in line with Kladde 26" footers link here.
