@@ -1,0 +1,39 @@
+title: "Kladde 26"
+tagline: "Show Your Workings"
+description: >-
+  The Kladde 26 Manifesto — show your workings when you publish writing made
+  with language models.
+url: "https://kladde26.org"
+lang: en-GB
+
+# No theme gem: layouts and styles live in this repo.
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - CLAUDE.md
+  - README.md
+  - serve.sh
+  - Gemfile
+  - Gemfile.lock
+  - OLD_SITE
+  - vendor/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# The github-pages gem defaults to jekyll-theme-primer; we ship our own
+# layouts and CSS, so disable it (stops a 136KB unused stylesheet being built).
+theme: null

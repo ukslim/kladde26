@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="site-title" href="{{ '/' | relative_url }}">Kladde 26</a>
+  <nav class="site-nav">
+    {%- assign here = page.url -%}
+    <a href="{{ '/' | relative_url }}"{% if here == '/' %} aria-current="page"{% endif %}>Manifesto</a>
+    <a href="{{ '/introduction/' | relative_url }}"{% if here == '/introduction/' %} aria-current="page"{% endif %}>Introduction</a>
+    <a href="{{ '/faq/' | relative_url }}"{% if here == '/faq/' %} aria-current="page"{% endif %}>FAQ</a>
+  </nav>
+</header>
+
+<main class="page">
+  {%- if page.workings_of %}
+  <p class="workings-back"><a href="{{ page.workings_of | relative_url }}">← {{ page.workings_of_title }}</a></p>
+  {%- endif %}
+
+  {%- unless page.show_title == false %}
+  <h1 class="page-title">{{ page.title }}</h1>
+  {%- endunless %}
+
+  <div class="page-body">
+    {{ content }}
+  </div>
+
+  {%- if page.workings_url %}
+  <p class="workings-link">This work has shared <a href="{{ page.workings_url | relative_url }}">workings</a>,
+    in line with {% if here == '/' %}Kladde 26{% else %}<a href="{{ '/' | relative_url }}">Kladde 26</a>{% endif %}.</p>
+  {%- endif %}
+</main>
+
+</body>
+</html>
