@@ -136,3 +136,33 @@ a:hover { text-decoration-thickness: 2px; }
 }
 
 .workings-back a { color: var(--ink-soft); }
+
+/* --- 404 --- */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.notfound {
+  margin: 0 0 2rem;
+}
+
+.notfound img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 34rem;
+  margin: 0 auto;
+}
+
+.notfound-links {
+  text-align: center;
+  color: var(--ink-soft);
+}
