@@ -4,7 +4,7 @@ description: The Kladde 26 Manifesto — show your workings when you publish wri
 workings_url: /workings/
 ---
 
-_For background and context, read the [introduction](/introduction/)._
+_For background and context, read the [introduction]({{ '/introduction/' | relative_url }})._
 
 _v1.0.0 — 17 September 2026_
 
