@@ -166,3 +166,62 @@ a:hover { text-decoration-thickness: 2px; }
   text-align: center;
   color: var(--ink-soft);
 }
+
+/* --- FAQ contents --- */
+
+.toc {
+  margin: 0 0 3rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--rule);
+}
+
+.toc h2 {
+  margin: 0 0 0.75rem;
+  font-size: 0.975rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.toc ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.toc li {
+  margin: 0 0 0.35rem;
+  line-height: 1.35;
+}
+
+.toc a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.toc a:hover { text-decoration: underline; }
+
+/* --- Anchor links on headings --- */
+
+.heading-anchor {
+  margin-left: 0.4em;
+  color: var(--ink-soft);
+  text-decoration: none;
+  font-weight: 400;
+  opacity: 0;
+  transition: opacity 0.12s;
+}
+
+h2:hover > .heading-anchor,
+h3:hover > .heading-anchor,
+.heading-anchor:focus {
+  opacity: 1;
+}
+
+@media (hover: none) {
+  .heading-anchor { opacity: 0.4; }
+}
+
+:target {
+  scroll-margin-top: 1.5rem;
+}

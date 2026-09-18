@@ -4,6 +4,16 @@ permalink: /faq/
 description: Frequently asked questions about Kladde 26 — how to mark a work, what the workings must contain, and what the manifesto deliberately leaves open.
 workings_url: /faq/workings/
 ---
+<nav class="toc" markdown="1" aria-labelledby="toc-heading">
+
+## Questions
+{:#toc-heading .no_toc}
+
+* this line is replaced by the generated list
+{:toc}
+
+</nav>
+
 ## How do I mark a work as Kladde 26?
 
 Say so, on or beside the work, and point to the manifesto — a link, or a short quotation. Then give the reader a route to the workings: the workings themselves, or a durable link to them. A line at the foot of the piece will do. As an example, the footer on our own work reads:

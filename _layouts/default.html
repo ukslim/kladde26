@@ -44,5 +44,21 @@
   {%- endif %}
 </main>
 
+<script>
+(function () {
+  var body = document.querySelector('.page-body');
+  if (!body) return;
+  body.querySelectorAll('h2[id], h3[id]').forEach(function (h) {
+    if (h.closest('.toc')) return;
+    var a = document.createElement('a');
+    a.className = 'heading-anchor';
+    a.href = '#' + h.id;
+    a.setAttribute('aria-label', 'Link to \u201c' + h.textContent.trim() + '\u201d');
+    a.textContent = '#';
+    h.appendChild(a);
+  });
+})();
+</script>
+
 </body>
 </html>
