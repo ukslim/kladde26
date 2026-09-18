@@ -7,6 +7,11 @@ url: "https://kladde26.org"
 repository: ukslim/kladde26   # lets JEKYLL_ENV=production build locally
 lang: en-GB
 
+# jekyll-seo-tag reads `image` from the page, not the site, so the
+# link-preview card is applied to every page via `defaults` below.
+twitter:
+  card: summary_large_image
+
 # No theme gem: layouts and styles live in this repo.
 plugins:
   - jekyll-seo-tag
@@ -26,6 +31,7 @@ defaults:
       path: ""
     values:
       layout: default
+      image: /assets/og-image.jpg
 
 highlighter: rouge
 markdown: kramdown
