@@ -4,6 +4,7 @@ description: >-
   The Kladde 26 Manifesto — show your workings when you publish writing made
   with language models.
 url: "https://kladde26.org"
+repository: ukslim/kladde26   # lets JEKYLL_ENV=production build locally
 lang: en-GB
 
 # No theme gem: layouts and styles live in this repo.

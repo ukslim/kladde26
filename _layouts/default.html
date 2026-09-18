@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  {%- if jekyll.environment == 'production' %}
+  <script data-goatcounter="https://kladde26.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+  {%- endif %}
 </head>
 <body>
 
