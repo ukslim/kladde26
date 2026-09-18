@@ -40,7 +40,7 @@ The definition wants two parts, because the fifth clause needs both: say so and 
 
 One consequence: with that definition, the mark and the fifth clause become the same object. A single line reading "Made under Kladde 26 — workings at [url]" is the claim, the citation and the route at once. That's what a print journal can carry.
 
-**J:** Yes please, and give the example, just as an example, as used in the footer of my own work: *"This work has shared workings, in line with [Kladde](…)."*
+**J:** Yes please, and give the example, just as an example, as used in the footer of my own work: *"This work has shared workings, in line with \[Kladde\](…)."*
 
 **C:** *[Adds it.]* Your line asserts that workings exist and links to the manifesto, but doesn't say where the workings are. Fine on your site, where the index puts the link beside the story; a reader who meets the piece anywhere else has the claim without the route. Also, your footer says "Kladde" where the manifesto says "Kladde 26".
 
