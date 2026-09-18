@@ -35,6 +35,6 @@ I've taken inspiration from the [Dogme 95](https://en.wikipedia.org/wiki/Dogme_9
 
 Lars von Trier didn't stick to Dogme for all his films, and (at time of writing) one of my stories lacks workings. I'm trying.
 
-If you want to join in, you are free to just get on with it. You can scrape the manifesto, link to it, or you can adopt the practices without referring to the document. I don't care. If there's enough interest I might even step up to a domain name.
+If you want to join in, you are free to just get on with it. You can scrape the manifesto, link to it, or you can adopt the practices without referring to the document. I don't care. 
 
 The workings of this post? I wrote it all by myself (though I admit to asking Claude for comments).
